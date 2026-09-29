@@ -8,7 +8,7 @@ The contact form sends an email only when a visitor submits their enquiry, not w
 2. Create a Resend account, verify a domain you control, and create a sending API key. Set `RESEND_API_KEY`, `CONTACT_FROM_EMAIL` (e.g. `Dambadeni Builders <enquiries@your-domain.lk>`) and `CONTACT_TO_EMAIL` (your receiving inbox).
 3. Create a Cloudflare Turnstile Managed widget. Allow your website hostname (and localhost for local testing). Set its public key as `VITE_TURNSTILE_SITE_KEY` and its private key as `TURNSTILE_SECRET_KEY`.
 4. Set `CONTACT_SITE_URL` to the exact website origin, e.g. `https://your-domain.lk`. Local development defaults to `http://localhost:5173`; update if Vite uses a different port. Redirect alternate domains to this canonical origin.
-5. Optionally set `VITE_CONTACT_EMAIL` to the email address you want publicly displayed. This is separate from the private recipient inbox. Blank hides the old placeholder email.
+5. Optionally set `VITE_CONTACT_EMAIL` to override the public email from the company profile (`info@dambadenibuilders.lk`). This is separate from the private recipient inbox. Blank keeps the profile address; it does not configure email delivery.
 6. Restart `npm run dev`. Submit a real enquiry and check your receiving inbox and Resend delivery logs.
 
 Change `CONTACT_TO_EMAIL` whenever you want enquiries delivered elsewhere. On hosted deployments, change environment settings and redeploy. Values starting with `VITE_` are public and require a rebuild. Never give secret values a `VITE_` prefix or commit `.env.local`.

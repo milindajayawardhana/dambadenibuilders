@@ -1,3 +1,5 @@
+import { company } from './company.js';
+
 export const contactForm = `
   <form id="enquiry-form">
     <h3>Send us a message</h3><p>Tell us about your project and we will be in touch.</p>
@@ -13,7 +15,7 @@ export const contactForm = `
   </form>`;
 
 export function initContact() {
-  const publicEmail = (import.meta.env.VITE_CONTACT_EMAIL || '').trim();
+  const publicEmail = (import.meta.env.VITE_CONTACT_EMAIL || company.email).trim();
   document.querySelectorAll('a[href="mailto:hello@dambadenibuilders.lk"]').forEach(link => {
     const emailLabel = link.textContent.trim() === 'hello@dambadenibuilders.lk';
     if (emailLabel && publicEmail) { link.href = `mailto:${publicEmail}`; link.textContent = publicEmail; }
@@ -21,7 +23,7 @@ export function initContact() {
     else link.href = '/contact';
   });
   const cta = document.querySelector('.cta-action > span');
-  if (cta) { cta.replaceChildren(); if (publicEmail) cta.append(publicEmail, document.createElement('br')); cta.append('+94 77 123 4567'); }
+  if (cta) { cta.replaceChildren(); if (publicEmail) cta.append(publicEmail, document.createElement('br')); cta.append(company.phone); }
   const form = document.querySelector('#enquiry-form');
   if (!form) return;
   const status = form.querySelector('.enquiry-status');

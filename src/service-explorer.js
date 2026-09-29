@@ -1,10 +1,10 @@
 const photos = [
   ['building', '1504307651254-35680f356dfd', 'Building work at a construction site'],
-  ['roads', '1562259949-e8e7689d7828', 'Road and civil construction work'],
-  ['landscaping', '1558904541-efa843a96f01', 'Landscaped outdoor grounds'],
-  ['water', '1581092160607-ee22731c9f48', 'Infrastructure installation work'],
-  ['consultancy', '1503387762-592deb58ef4e', 'Architectural plans for construction'],
-  ['institutional', '1580582932707-520aed937b7b', 'School and community facilities'],
+  ['development', '1504307651254-35680f356dfd', 'Land and building development'],
+  ['water', '1581092160607-ee22731c9f48', 'Water infrastructure work'],
+  ['electrical', '1581094794329-c8112a89af12', 'Electrical engineering'],
+  ['wiring', '1581092160607-ee22731c9f48', 'Technical installation work'],
+  ['design-build', '1503387762-592deb58ef4e', 'Architectural plans for construction'],
 ];
 
 export const serviceAnchors = photos.map(([id]) => id);
