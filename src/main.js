@@ -131,3 +131,4 @@ document.querySelectorAll('.header nav a, .header .downloads-button, .mobile-men
   if (link.pathname === path) link.setAttribute('aria-current', 'page');
 });
 heroDots.forEach((dot, i) => dot.setAttribute('aria-label', `Show construction image ${i + 1}`));
+import('./back-to-top.js');

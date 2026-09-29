@@ -1,0 +1,6 @@
+.back-to-top { position: fixed; z-index: 25; right: 24px; bottom: 88px; display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid #ffffff30; border-radius: 12px; background: var(--navy); color: var(--amber); box-shadow: 0 4px 16px #10282326; cursor: pointer; transition: background .2s; }
+.back-to-top[hidden], .menu-open .back-to-top { display: none; }
+.back-to-top:hover { background: #24473b; }
+.back-to-top svg { width: 20px; height: 20px; stroke-width: 2; }
+@media (max-width:560px) { .back-to-top { right: 15px; } }
+@media (prefers-reduced-motion:reduce) { .back-to-top { transition: none; } }
