@@ -331,3 +331,5 @@ footer .brand .brand-mark { width: 42px; height: 62px; }
   .brand { font-size: 15px; }
   .brand small { font-size: 8px; }
 }
+.vision h2, .about-new .about-copy h2 { letter-spacing: -.025em; line-height: 1.25; }
+.vision h2 em, .about-new .about-copy h2 em { letter-spacing: -.02em; line-height: inherit; }
