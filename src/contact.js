@@ -1,4 +1,11 @@
 import { company } from './company.js';
+import { icons } from './icons.js';
+
+export const contactDetails = `<dl class="contact-details">
+  <div class="contact-detail contact-detail-primary"><dt>${icons.phone}Call our team</dt><dd><a href="tel:${company.phoneHref}">${company.phone}</a></dd></div>
+  <div class="contact-detail"><dt>${icons.mail}Email enquiries</dt><dd><a href="mailto:hello@dambadenibuilders.lk">hello@dambadenibuilders.lk</a></dd></div>
+  <div class="contact-detail"><dt>${icons.pin}Our address</dt><dd><address>${company.address}</address></dd></div>
+</dl><div class="contact-secondary"><div><h3>Office telephone</h3><a href="tel:+94374901333">037 490 1333</a><a href="tel:+94815611112">081 561 1112</a></div><div><h3>Additional mobile numbers</h3><a href="tel:+94765460601">076 546 0601</a><a href="tel:+94774134852">077 413 4852</a></div></div>`;
 
 export const contactForm = `
   <form id="enquiry-form">
