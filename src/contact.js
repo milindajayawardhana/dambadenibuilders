@@ -17,6 +17,7 @@ export const contactForm = `
     <div class="enquiry-trap" aria-hidden="true"><label>Leave this empty<input name="website" tabindex="-1" autocomplete="off" /></label></div>
     <div id="enquiry-security"></div>
     <p class="enquiry-status" role="status" aria-live="polite"></p>
+    <noscript><p>Please call or email our team to make an enquiry. The online form requires JavaScript.</p></noscript>
     <button type="submit" disabled>Send enquiry &rarr;</button>
     <small class="enquiry-note">Your details will be used to respond to this enquiry.</small>
   </form>`;

@@ -16,7 +16,7 @@ export function serviceExplorer(services, arrow) {
       <h2 id="directory-title">The expertise <em>your project needs.</em></h2>
     </div>
     <div class="directory-list">
-      ${services.map((service, i) => `<a class="directory-row" href="/services#${photos[i][0]}" aria-labelledby="directory-service-${i}">
+      ${services.map((service, i) => `<a class="directory-row" href="/services/${servicePages[i].slug}" aria-labelledby="directory-service-${i}">
         <span class="directory-thumbnail"><img src="https://images.unsplash.com/photo-${photos[i][1]}?auto=format&fit=crop&w=360&q=80" alt="" loading="lazy" width="180" height="120" /></span>
         <h3 id="directory-service-${i}">${service[1]}</h3>
         <span class="directory-arrow" aria-hidden="true">${arrow}</span>
@@ -24,3 +24,4 @@ export function serviceExplorer(services, arrow) {
     </div>
   </section>`;
 }
+import { servicePages } from './seo-content.js';

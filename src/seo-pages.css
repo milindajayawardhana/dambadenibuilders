@@ -1,0 +1,41 @@
+.service-detail-layout { display: grid; grid-template-columns: minmax(0,1.6fr) minmax(0,1fr); gap: 48px; align-items: start; }
+.service-detail-page h2, .areas-page h2, .coverage-summary h2 { font-size: clamp(26px, 2.8vw, 38px); line-height: 1.25; letter-spacing: -.025em; font-weight: 500; }
+.service-detail-page h2 em, .coverage-summary h2 em { font-family: var(--serif); font-weight: 400; }
+.service-detail-page p, .areas-page p, .coverage-summary p { font-size: 15px; line-height: 1.8; color: var(--muted); }
+.service-detail-layout > div > h2:not(:first-of-type) { margin-top: 36px; font-size: 25px; }
+.service-scope { padding-left: 20px; font-size: 15px; line-height: 1.9; }
+.service-scope li::marker { color: #986010; }
+.service-enquiry { padding: 28px; background: white; border: 1px solid var(--line); border-radius: 18px; }
+.service-enquiry h2 { font-size: 30px; }
+.service-enquiry .primary-button { width: fit-content; }
+.service-question { border-block: 1px solid var(--line); padding: 18px 0; }
+.service-question summary { cursor: pointer; font-size: 16px; line-height: 1.6; font-weight: 500; }
+.related-services { margin-top: 42px; padding-top: 24px; border-top: 1px solid var(--line); }
+.related-services > div { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px 24px; }
+.related-services a { display: flex; justify-content: space-between; gap: 16px; align-items: center; min-height: 48px; padding-block: 10px; font-size: 15px; border-bottom: 1px solid var(--line); }
+.related-services a:hover { color: #88540b; }
+.area-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; }
+.area-grid article { padding: 24px; background: white; border: 1px solid var(--line); border-radius: 16px; }
+.area-grid h3 { font-size: 20px; font-weight: 500; margin: 0; }
+.area-grid p { margin-bottom: 0; }
+.district-coverage { margin-top: 40px; }
+.district-coverage ul { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 12px; list-style: none; padding: 0; font-size: 14px; line-height: 1.6; }
+.district-coverage li { border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+.coverage-summary { padding: 36px 12%; display: flex; align-items: center; justify-content: space-between; gap: 32px; border-block: 1px solid var(--line); }
+.coverage-summary > div { max-width: 700px; }
+.coverage-summary h2 { font-size: 30px; margin: 12px 0; }
+.coverage-summary .text-link { flex-shrink: 0; }
+.page-banner-copy h1 { font-size: clamp(32px, 4.5vw, 62px); line-height: 1.12; letter-spacing: -.035em; max-width: 950px; }
+.crumb a { color: inherit; text-decoration: underline; text-underline-offset: 4px; }
+html[data-prerendered] .reveal { opacity: 1; transform: none; }
+@media (max-width:900px) {
+  .service-detail-layout { grid-template-columns: 1fr; gap: 24px; }
+  .area-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .district-coverage ul { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .coverage-summary { flex-direction: column; align-items: flex-start; padding-inline: 6%; }
+}
+@media (max-width:560px) {
+  .area-grid, .related-services > div { grid-template-columns: 1fr; }
+  .district-coverage ul { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .service-enquiry { padding: 22px; }
+}

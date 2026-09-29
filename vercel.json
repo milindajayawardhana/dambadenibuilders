@@ -1,6 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/api/contact", "destination": "/api/contact" },
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/projects", "destination": "/portfolio", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.dambadenibuilders.lk" }], "destination": "https://dambadenibuilders.lk/:path*", "permanent": true }
   ]
 }

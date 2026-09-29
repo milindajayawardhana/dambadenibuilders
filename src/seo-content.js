@@ -1,0 +1,73 @@
+export const servicePages = [
+  {
+    slug: 'building-construction', anchor: 'building', name: 'Building Construction',
+    title: 'Building Contractors in Kurunegala & Alawwa | Dambadeni Builders',
+    description: 'Residential and commercial building construction from Alawwa-based Dambadeni Builders. Discuss new builds, upgrading works and projects across Sri Lanka.',
+    intro: 'Building and commercial construction, including major upgrading works, for clients who need a practical plan and a clearly managed site.',
+    scope: ['Residential and commercial buildings', 'Structural and finishing work', 'Major building upgrading works', 'Coordination of civil and specialist trades'],
+    detail: 'We act as main contractor for small to medium-sized projects and provide project management on industrial and commercial work. Before agreeing a scope, we discuss the drawings, site access, required finishes and project priorities.',
+    evidence: 'Our profile records residential construction in Peradeniya and Kandy, staff quarters and an administration building at the Mannar Wind Power Station, and six CEB staff quarters at Moragolla.',
+    faq: ['Can we discuss a project before all drawings are ready?', 'Yes. Share the information you have so we can discuss the scope and identify what further design information is needed before a quotation.'],
+  },
+  {
+    slug: 'land-building-development', anchor: 'development', name: 'Land & Building Development',
+    title: 'Land & Building Development Sri Lanka | Dambadeni Builders',
+    description: 'Discuss groundwork and land or building development with Dambadeni Builders in Alawwa. Site planning and construction enquiries welcomed across Sri Lanka.',
+    intro: 'Land and building development requires a coordinated approach, from the first groundwork to the construction that follows.',
+    scope: ['Groundwork and excavation', 'Land and building development projects', 'Coordination with building works', 'Planning of site resources and work sequences'],
+    detail: 'Tell us about the proposed use of the land, its location and the information available about the site. We can then discuss the work required, access for equipment and how to coordinate development with the wider build.',
+    evidence: 'Our company profile includes excavation and trenching work on water infrastructure projects, supported by a site workforce and construction equipment.',
+    faq: ['What information should I provide about the land?', 'Start with the location, intended development, available drawings and any known access or site constraints. The scope and quotation depend on the actual site requirements.'],
+  },
+  {
+    slug: 'water-supply-sanitation', anchor: 'water', name: 'Water Supply & Sanitation',
+    title: 'Water Supply & HDPE Pipe Laying Sri Lanka | Dambadeni Builders',
+    description: 'Water supply, sewerage, pipe laying and HDPE jointing services. Explore Dambadeni Builders’ Kurunegala project experience and discuss your infrastructure work.',
+    intro: 'Water supply and sewerage works, including large-scale pipe laying and HDPE pipe jointing, supported by practical site experience.',
+    scope: ['Water supply and sewerage works', 'Large-scale pipe laying', 'HDPE pipe jointing', 'Trenching and associated civil works'],
+    detail: 'Pipe routes, project specifications, ground conditions and access all shape the work programme. Share the scope and drawings with our team so we can discuss construction requirements and coordination with the main contractor.',
+    evidence: 'The company profile records 72.8 km of pipe laying for CMEC Group on the Greater Kurunegala Water Supply & Sewerage Project. It also lists a water supply project at Madawachchiya under Sierra Construction (Pvt) Ltd.',
+    faq: ['Do you have HDPE pipe-jointing equipment?', 'The company profile lists HDPE pipe-jointing equipment among our resources. Contact our team to confirm suitability and availability for your pipe specifications and schedule.'],
+  },
+  {
+    slug: 'electrical-contracting', anchor: 'electrical', name: 'High & Low Voltage Electrical',
+    title: 'Electrical Contractors Sri Lanka | Dambadeni Builders',
+    description: 'High- and low-voltage electrical line works from Dambadeni Builders. Alawwa-based civil and electrical contractors welcoming enquiries across Sri Lanka.',
+    intro: 'High-voltage and low-voltage electrical line works, with supervision by experienced electrical engineering personnel.',
+    scope: ['High-voltage electrical line works', 'Low-voltage electrical line works', 'Electrical works for building and industrial projects', 'Coordination with civil construction teams'],
+    detail: 'We bring civil and electrical expertise together to coordinate work on site. Provide the project location, drawings, electrical specifications and programme so our team can discuss the required scope and supervision.',
+    evidence: 'Our profile names Eng. N.P.S. Karunarathne, former Deputy General Manager of the Ceylon Electricity Board, as Electrical Consultant, supported by a Senior Technical Officer and experienced electricians.',
+    faq: ['Can civil and electrical work be coordinated together?', 'Yes. Civil and electrical contracting are both part of our principal activities. The combined scope and responsibilities are agreed for each project.'],
+  },
+  {
+    slug: 'panel-boards-wiring', anchor: 'wiring', name: 'Panel Boards & Wiring',
+    title: 'Panel Board & Three-Phase Wiring Sri Lanka | Dambadeni Builders',
+    description: 'Panel board, single-phase and three-phase wiring for buildings and industrial use. Discuss your electrical requirements with Dambadeni Builders, Alawwa.',
+    intro: 'Panel board wiring and single-phase and three-phase wiring for buildings and industrial use.',
+    scope: ['Panel board wiring', 'Single-phase building wiring', 'Three-phase wiring', 'Electrical trade coordination on construction projects'],
+    detail: 'Our team reviews the available electrical requirements alongside the building or industrial project scope. Share your drawings, intended use and installation requirements to start a practical discussion about the work.',
+    evidence: 'The company was established as a civil and electrical works contractor in 2018. Its profile describes leadership with more than 10 years of electrical industry experience and a team of skilled electricians.',
+    faq: ['What should I send when requesting a wiring quotation?', 'Send the location, available electrical drawings, type of building or industrial installation, and the intended scope. Our team will identify any additional information needed.'],
+  },
+  {
+    slug: 'design-build-project-management', anchor: 'design-build', name: 'Design, Build & Project Management',
+    title: 'Design & Build Contractors Sri Lanka | Dambadeni Builders',
+    description: 'Design input, engineering solutions and project management for construction in Sri Lanka. Coordinate specialist trades with Dambadeni Builders in Alawwa.',
+    intro: 'Design input, engineering solutions and coordination of specialist trades on industrial and commercial projects.',
+    scope: ['Design-and-build solutions', 'Engineering input', 'Construction project management', 'Coordination of specialist trades'],
+    detail: 'Our approach is to plan schedules and resources, communicate with stakeholders, track progress and supervise quality. We discuss the responsibilities, required design information and delivery priorities at the outset.',
+    evidence: 'Dambadeni Builders acts as main contractor on small to medium-sized work and provides project management services for industrial and commercial construction, as described in the company profile.',
+    faq: ['Can you coordinate specialist contractors?', 'Yes. Coordination of specialist trades is part of our project management offering. The responsibilities and reporting arrangements are agreed for the particular project.'],
+  },
+];
+
+export const districts = ['Ampara', 'Anuradhapura', 'Badulla', 'Batticaloa', 'Colombo', 'Galle', 'Gampaha', 'Hambantota', 'Jaffna', 'Kalutara', 'Kandy', 'Kegalle', 'Kilinochchi', 'Kurunegala', 'Mannar', 'Matale', 'Matara', 'Monaragala', 'Mullaitivu', 'Nuwara Eliya', 'Polonnaruwa', 'Puttalam', 'Ratnapura', 'Trincomalee', 'Vavuniya'];
+
+export const priorityAreas = [
+  ['Alawwa', 'Our base in Wennoruwa, Alawwa, is the contact point for project enquiries and coordination.'],
+  ['Kurunegala', 'Our profile records 72.8 km of pipe laying on the Greater Kurunegala Water Supply & Sewerage Project.'],
+  ['Ampara', 'We welcome civil and electrical project enquiries in Ampara. Contact our Alawwa team to discuss scope, site access and mobilisation.'],
+  ['Nuwara Eliya', 'Our profile lists a completed concrete drain line project in Nuwara Eliya. We welcome enquiries for further civil and building work.'],
+  ['Kandy', 'Our profile includes residential work in Kandy and Peradeniya, alongside our wider civil and electrical capabilities.'],
+  ['Gampola', 'Our profile includes CEB staff quarters at Moragolla and temporary office and accommodation works in Moragolla, Gampola.'],
+];
